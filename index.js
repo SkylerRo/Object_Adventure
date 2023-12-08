@@ -25,7 +25,6 @@ class Character {
       this.inventory = [];
     }
   }
-  
 
 
 
@@ -51,3 +50,9 @@ class Adventurer extends Character {
       super.roll();
     }
   }
+
+  const robin = new adventurer("Robin","Warrior");
+
+  const leo = new companion ("Leo","cat","Scavenger");
+
+  const Frank = new companion2("Frank","Flea","Healer");
